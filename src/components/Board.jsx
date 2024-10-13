@@ -19,6 +19,8 @@ export function Board(){
         status = "Ganador: " + result.winner;
 
     }
+
+
     function handleClick(i){
         if (squares[i] || result.winner){
             return;
@@ -37,6 +39,14 @@ export function Board(){
 
 
     }
+
+
+    const handleReset = () => {
+      setSquares(Array(9).fill(null)); // Restablecer el tablero
+      setWinnerInfo({ winner: null, line: [] }); // Restablecer la información del ganador
+      setXIsNext(true); // Volver a empezar con X
+      setTime(0);
+    };
 
     
     
@@ -65,7 +75,8 @@ export function Board(){
 
 
         </div>
-   
+        <button className="reset" onClick={handleReset}>Reiniciar Juego</button>
+
 
         </>
 
