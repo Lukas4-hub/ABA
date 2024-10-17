@@ -1,13 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/LOGO ABA.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" >
+    <title>ABA | Inicio</title>
+</head>
+<body>
+ 
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-1 ">
+    <a class="navbar-brand " href="#"><img src="img/LOGO ABA.jpg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto text-center">
+        <li class="nav-item active">
+          <a class="nav-link " href="#inicio">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactos">Contacto</a>
+        </li>
+     
+  
+      </ul>
+  
+    </div>
+  </nav>
+</header>
+
+
+
+<section id="inicio">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
+    </ol>
+  
+    <div class="carousel-inner">
+   
+      <div class="carousel-item active">
+        <div class="content">
+          <img src="img/LOGO ABA.jpg" alt="">
+          <h1>AB_Arquitectura</h1>
+        </div>
+
+        <video muted autoplay loop>
+          <source src="Videos/VIDEO V1 - Trim.mp4">
+        </video>
+      </div>
+      <div class="carousel-item">
+        <img src="img/Slider/V1R1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Slider/V1R3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/Slider/V2R6.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon  " aria-hidden="true"></span>
+    </button>
+  </div>
+
+
+</section>
+
+<section id="proyectos">
+  <h1>Proyectos</h1>
+  <div class="container-grid">
+      <div class="col texto"><h2>Titulo</h2><p>Texto descriptivo</p></div>
+      <div class="col"><img src="img/Slider/CASA MALDONADO 2.jpg" alt=""></div>
+      <div class="col texto"><h2>Titulo</h2><p>Texto descriptivo</p></div>
+      <div class="col"><img src="img/Slider/CASA MALDONADO 2.jpg" alt=""></div>
+      <div class="col texto"><h2>Titulo</h2><p>Texto descriptivo</p></div>
+      <div class="col "><img src="img/Slider/CASA MALDONADO 2.jpg" alt=""></div>
+      <div class="col texto"><h2>Titulo</h2><p>Texto descriptivo</p></div>
+      <div class="col"><img src="img/Slider/CASA MALDONADO 2.jpg" alt=""></div>
+      
+  </div>
+</section>
+<section id="servicios">
+  <h1>Servicios</h1>
+  <div class="container-servicios">
+      <h2>Arquitectura</h2>
+      <div class="grid-1">
+        <div><h3>Proyecto</h3><p>Anteproyecto y estudio de viabilidad donde se realizan dados los estudios relativos a la viabilidad arquitectonica o comercial del proyecto.</p></div>
+        <div><h3>Reforma y Re-usos</h3><p>Proyecto de reformas, ampliaciones, readecuaciones en baños y cocinas.<br>Reciclajes edificios, donde la embolvente se re-interpreta y los interiores adoptan un nuevo caracter.</p></div>
+        <div><h3>Regularizaciones</h3><p>Inscripcion de obras que fueron desarrolladas y no se registraron en tiempo y forma.Ante BPS, Catastro,Intendencia.</p></div>
+        <div><h3>Asesorias</h3><p>Orientamos en etapas de toma de decisiones relacionadas a compra-venta, obra nueva, reformas, reciclajes, posibles patologias.</p></div>
+        <div><h3>Habilitaciones</h3><p>Habilitacion de locales comerciales e industriales, ante los organismos correspondientes.</p></div>
+        <div><h3>Proyectyo ejecutivo</h3><p>Se genera toda la documentación grafica necesaria para ejecutar los trabajos de construcción, pliegos M.C, detalles, planillas, cronogramas.</p></div>
+        <div><h3>Direccion de obra</h3><p>Seguimiento y supervision en la ejecución de la obra, poniendo especial enfasis en el cumplimiento todos los requisitos del proyecto hasta su culminación.</p></div>
+      </div>
+      <h2>BIM</h2>
+      <div class="grid-1">
+        <div><h3>Modelado de Arq/Estr/Mep</h3><p>A partir de un proyecto realizado en 2D, formato CAD, lo convertimos en un modelo 3D, carpado de información y realista, la cual es fundamental para una gestión eficiente de los datos que son fundamentales en todas las etapas.</p></div>
+        <div><h3>Documentación Técnica</h3><p>A traves de un modelo 3D gestionamos toda la información y la extraemos en diferentes formatos, planos, detalles, planillas, visualizaciones, estudio de asoleamiento.</p></div>
+        <div><h3>Cuantificación</h3><p>Tambien se extrae información detallada referida a cuantificación, metrajes, presupuestos. </p></div>
+        <div><h3>Coordinacion de modelos</h3><p>La coordinación BIM es clave en un proyecto de construcción en las fases de diseño y ejecución.<br>Por medio de modelos Federados realizamos el analisis de interferencias previa a la ejecución del proyecto, lo que asegura que cualquier problema potencialsea tratado de manera efectiva, reduciendo costos y tiempo.</p></div>
+        <div><h3>Modelo as-built</h3><p>Digitalizacmos el proyecto ya construido que representa con fidelidad la realidad de la obra ejecutada garantizando asi que el modelo sea usable en el futuro.</p></div>
+      </div>
+      <h2>Visualizacion</h2>
+      <div class="grid-1">
+        <div><h3>Renders</h3><p>Realizamos imagenes fotorrealistas utilizando el modelo BIM</p></div>
+        <div><h3>Animacion</h3><p>Para mostrar y compartir definiciones de proyecto realizamos recorridas virtuales de calidad en formato de video en alta definición.</p></div>
+ 
+      </div>
+      <h2>BIM Consulting</h2>
+      <div class="grid-1">
+        <div><h3>Asesoria e Implementación</h3><p>Ayudamos a estudios, empresas del rubro de la construcción de arq, ing, promotoras a implementar BIM, donde la estrategia a la parte operativa.</p></div>
+        <div><h3>Auditoria de modelos</h3><p>Comprobamos el modelado, la parametrización y clasificacion de los elementos del modelo para darle coherencia al proyecto.<br>La realizacion de auditorias permite al gestor de la información obtener una vision global del estado y viabilidad actual del modelo </p></div>
+ 
+      </div>
+      <h2>Scan to BIM</h2>
+      <div class="grid-1">
+        <div><h3>Procesado de nube de puntos</h3><p>A traves de un software se realiza el procesamiento de los datos extraidos de escaneos laser de una construccion existente, una vez generado el archivo completo se exporta a un software de modelado para realizar el modelado de forma precisa.</p></div>
+      </div>
+    </div>
+
+ 
+
+</section>
+<section id="contactos">
+
+  <div class="container-form">
+      <div class="texto">
+                  <h2>Contacto</h2>
+      </div>
+
+
+      <form action="">
+          <input type="text" placeholder="NOMBRE">
+          <input type="text" placeholder="APELLIDO">
+          <input type="text" placeholder="CORREO" class="correo">
+<textarea name="" id="" cols="30" rows="5" placeholder="MENSAJE"></textarea>
+          <button>Enviar</button>
+      </form>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+       <img src="img/LOGO ABA.jpg" alt="">
+       <ul>
+           <li><a href=""><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+           <li><a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+
+       </ul>
+       <small>&copy ABA All rights reserved </small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
